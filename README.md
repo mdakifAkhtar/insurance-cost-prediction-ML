@@ -1,14 +1,14 @@
 🏥 AI Insurance Cost Prediction
 🌐 Live : https://insurance-cost-prediction-ml-akif-pgnh.onrender.com/
-📌 Project Overview
 
+📌 Project Overview :
 This project is a Machine Learning web application that predicts medical insurance costs based on user input features such as age, BMI, smoking status, number of children, gender, and region.
 
 The model is built using Random Forest Regressor, which provides high accuracy and handles non-linear relationships effectively.
 
 The application is deployed using Flask and can be accessed via a web interface where users enter their details to get predicted insurance charges.
 
-🚀 Technologies Used
+🚀 Technologies Used:
 	•	Python
 	•	Pandas & NumPy
 	•	Scikit-learn
@@ -18,7 +18,7 @@ The application is deployed using Flask and can be accessed via a web interface 
 	•	Render (Deployment)
 
 
-📊 Machine Learning Model
+📊 Machine Learning Model:
 	•	Algorithm: Random Forest Regressor
 	•	Type: Supervised Learning (Regression)
 	•	Evaluation Metrics:
@@ -46,11 +46,11 @@ Random Forest was chosen because:
 	4.	Trained Random Forest model predicts insurance cost.
 	5.	Predicted result is displayed on the webpage.
 	
-i. Pearson correlation analysis was performed to understand the linear relationship between independent variables and insurance charges. Smoking status showed the highest   positivecorrelation, indicating strong impact on medical expenses.
+Pearson correlation analysis was performed to understand the linear relationship between independent variables and insurance charges. Smoking status showed the highest   positivecorrelation, indicating strong impact on medical expenses.
 
 ii. Chi-Square test of independence was applied to categorical features after binning the target variable into quartiles. Features with p-value < 0.05 were retained for model training.
 
-🔮 Future Improvements
+🔮 Future Improvements:
 	•	Add model comparison (Linear Regression vs Random Forest)
 	•	Add feature importance visualization
 	•	Improve UI design
